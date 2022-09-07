@@ -5,11 +5,12 @@
 .body {
     background: hsl(212, 45%, 89%);
     margin: 0;
-    padding-top: 20vh;
+    padding-top: 10%;
+    display: flex;
+    justify-content: center;
 }
 
 .wrapper {
-    margin: 0 auto;
     width: 320px;
     height: 500px;
     border-radius: 20px;
