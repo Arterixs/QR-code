@@ -14,8 +14,11 @@ class View extends Model {
         const content = new Model("div", "content", this.node)
         const text_one = new Model("p", "content__one", content.node)
         const text_two = new Model("p", "content__two", content.node)
+        text_one.node.textContent = "Improve your front-end skills by building projects"
+        text_two.node.textContent = "Scan the QR code to visit Frontend Mentor and take your coding skills to the next level"
     }
 }
 
 const wrapper = new View("div", "wrapper", document.body)
+document.body.className = "body"
 
