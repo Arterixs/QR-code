@@ -5,7 +5,7 @@
 .body {
     background: hsl(212, 45%, 89%);
     margin: 0;
-    padding-top: 18vh;
+    padding-top: 20vh;
 }
 
 .wrapper {
@@ -34,10 +34,20 @@
 }
 
 .content__one {
-
+    font-family: "Outfit", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+    margin: 22px 0 17px 0;
 }
 
 .content__two {
-
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+    margin: 0 0 0 6px;
+    letter-spacing: 0.5px;
 }
 
